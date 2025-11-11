@@ -10,12 +10,12 @@ BCM helps users estimate calorie intake by uploading or capturing food images wi
 - 📊 **Dashboard:** Daily calorie tracking with macronutrient breakdown  
 - 🍔 **Upload / Capture:** Upload food photos for AI-based calorie estimation (simulation)  
 - 🔍 **Results:** Detailed nutrition info for each detected food item  
-- 🕒 **History:** View past meals (Today / Week / Month)
+- 🕒 **History:** View meal history (Today / Week / Month)
 
 ---
 
 ## 🎨 **Design**
-- Modern, minimal UI with smooth transitions  
+- Modern, minimal UI with smooth animations  
 - White theme accented by **green (#4CAF50)** and **orange (#FF9800)**  
 - Fully **responsive** for desktop and mobile  
 
@@ -33,25 +33,34 @@ BCM helps users estimate calorie intake by uploading or capturing food images wi
 
 ## 🧑‍💻 **Setup Instructions**
 
-> **Prerequisite:** Node.js and Git must be installed.
+> **Before you start:**  
+> Ensure that **Node.js** and **Git** are installed on your system.
 
+### 1️⃣ Clone the Repository
 ```bash
-# Clone the repository
 git clone https://github.com/muhammadsaadkhankor/Best-Calorie-Measurement-BCM-.git
+2️⃣ Navigate to the Project Folder
+bash
+Copy code
 cd Best-Calorie-Measurement-BCM-
-
-# Install dependencies and start the app
-npm install && npm start
-Then open http://localhost:3000
+3️⃣ Install Dependencies
+bash
+Copy code
+npm install
+4️⃣ Start the Development Server
+bash
+Copy code
+npm start
+5️⃣ Open the Application
+Once the server starts, open your browser and visit:
+👉 http://localhost:3000
 
 💡 Purpose & Future
-This mockup demonstrates the workflow and design of an AI-based calorie measurement system.
-Future versions will include:
+This project demonstrates the workflow and design of an AI-based calorie measurement system.
+Planned future features include:
 
-Integration with a real food-recognition model
+🔬 Integration with a real food-recognition AI model
 
-Camera-based calorie detection
+📷 Camera-based calorie detection
 
-Backend for user data storage and authentication
-
-Eat Smart, Track Smarter — with BCM.
+🌐 Backend for authentication and user data storage
