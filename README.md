@@ -1,70 +1,57 @@
 # 🥗 **BCM – Better Calories Measurement**
-A **responsive web application** prototype for **smart visual calorie tracking** using **AI-powered food analysis**, designed to promote healthier eating habits through technology-driven insights.
+
+A **responsive web application** for **smart visual calorie tracking** using **AI-powered food analysis**.  
+BCM helps users estimate calorie intake by uploading or capturing food images with an intuitive and modern interface.
 
 ---
 
-## 🚀 **Overview**
-**BCM** helps users estimate calorie intake through intuitive visual interaction — just upload or capture food images and view instant nutrition breakdowns. Built as a **proof-of-concept** for demonstrations and customer presentations.
+## 🚀 **Features**
+- 🏠 **Landing Page:** Simple login/signup interface with clean branding  
+- 📊 **Dashboard:** Daily calorie tracking with macronutrient breakdown  
+- 🍔 **Upload / Capture:** Upload food photos for AI-based calorie estimation (simulation)  
+- 🔍 **Results:** Detailed nutrition info for each detected food item  
+- 🕒 **History:** View past meals (Today / Week / Month)
 
 ---
 
-## ✨ **Key Features**
-- 🏠 **Landing Page:** Clean login interface with app branding
-- 📊 **Dashboard:** Track daily calorie goals with progress bars and macronutrient insights
-- 🍔 **Upload / Capture:** Upload or simulate food photos for AI-powered calorie analysis
-- 🔍 **Results:** Get detailed nutritional facts for detected food items
-- 🕒 **History:** Review logged meals with filterable views (Today / Week / Month)
+## 🎨 **Design**
+- Modern, minimal UI with smooth transitions  
+- White theme accented by **green (#4CAF50)** and **orange (#FF9800)**  
+- Fully **responsive** for desktop and mobile  
 
 ---
 
-## 🎨 **Design Highlights**
-- 🧩 **Modern & Minimal UI** with smooth transitions and hover effects
-- 🎨 **Color Palette:** White background with **green (#4CAF50)** and **orange (#FF9800)** accents
-- 📱 **Responsive Layout** optimized for both desktop and mobile
-- 💫 **Rounded Cards & Components** for a polished, user-friendly look
-
----
-
-## 🧰 **Technology Stack**
+## 🧰 **Tech Stack**
 | Layer | Tools |
 |:------|:------|
-| 🧠 Frontend Framework | React 18 |
-| 🎨 Styling | CSS3 with modern grid layouts |
-| 🔤 Icons | Font Awesome |
-| 📱 Responsiveness | Media queries & flexible design components |
+| Frontend | React 18 |
+| Styling | CSS3 |
+| Icons | Font Awesome |
+| Build | Node.js & npm |
 
 ---
 
-## 🧑‍💻 **Getting Started**
-To set up and run the app locally:
+## 🧑‍💻 **Setup Instructions**
+
+> **Prerequisite:** Node.js and Git must be installed.
+
 ```bash
+# Clone the repository
+git clone https://github.com/muhammadsaadkhankor/Best-Calorie-Measurement-BCM-.git
+cd Best-Calorie-Measurement-BCM-
+
+# Install dependencies and start the app
 npm install && npm start
-Then open your browser and navigate to 👉 http://localhost:3000
+Then open http://localhost:3000
 
-🧭 Navigation Guide
-🔑 Click Sign In or Create Account to access the main app
+💡 Purpose & Future
+This mockup demonstrates the workflow and design of an AI-based calorie measurement system.
+Future versions will include:
 
-🧮 Use the Navbar to switch between Home, Add Meal, and History
+Integration with a real food-recognition model
 
-🧠 All buttons and routes are fully interactive (mocked for demo functionality)
+Camera-based calorie detection
 
-🧪 Purpose
-This project serves as a demo mockup for showcasing design, usability, and feature flow of an AI-based calorie measurement system.
-It represents the foundation for a future production-ready system integrating computer vision and nutrition analysis APIs.
+Backend for user data storage and authentication
 
-🏁 Future Scope
-🔬 Integration with a food-recognition AI model
-
-📷 Real-time camera capture
-
-🌐 Backend with user authentication and data storage
-
-📈 Advanced nutrition analytics dashboard
-
-💡 Eat Smart, Track Smarter with BCM.
-yaml
-Copy code
-
----
-
-Would you like me to make this into a downloadable **README.md file** now (ready to push to GitHub
+Eat Smart, Track Smarter — with BCM.
