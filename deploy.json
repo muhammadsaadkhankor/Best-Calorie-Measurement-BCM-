@@ -1,0 +1,17 @@
+{
+  "name": "BCM - Better Calories Measurement",
+  "version": "1.0.0",
+  "deployment": {
+    "installCommand": "npm install",
+    "buildCommand": "npm run build",
+    "devCommand": "npm run dev",
+    "outputDirectory": "build",
+    "framework": "react",
+    "nodeVersion": "18.x"
+  },
+  "scripts": {
+    "install": "npm install",
+    "build": "npm run build", 
+    "dev": "npm run dev"
+  }
+}
