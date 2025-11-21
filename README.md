@@ -40,7 +40,7 @@ BCM helps users estimate calorie intake by uploading or capturing food images wi
 ```bash
 git clone https://github.com/muhammadsaadkhankor/Best-Calorie-Measurement-BCM-.git
 2️⃣ Navigate to the Project Folder
-cd Best-Calorie-Measurement-BCM-
+cd Best-Calorie-Measurement-BCM-/bcm-mobile
 
 3️⃣ Install Dependencies
 npm install
