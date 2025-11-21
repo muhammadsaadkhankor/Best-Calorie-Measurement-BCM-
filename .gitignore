@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
 node_modules/.cache/
+package-lock.json
 
 # Production build
 build/
@@ -38,3 +39,10 @@ coverage/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Expo
+.expo/
+.expo-shared/
+
+# Windows Zone Identifier files
+*:Zone.Identifier
