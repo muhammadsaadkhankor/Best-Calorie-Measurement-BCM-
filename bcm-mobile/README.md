@@ -22,13 +22,14 @@ git clone https://github.com/muhammadsaadkhankor/Best-Calorie-Measurement-BCM-.g
 cd Best-Calorie-Measurement-BCM-
 ```
 
-### Step 3: Install Mobile App Dependencies
+### Step 3: Navigate to Mobile App & Install Dependencies
 ```bash
 cd bcm-mobile
 npm install
 ```
+**Wait for all packages to install (may take 2-3 minutes)**
 
-### Step 4: Install Backend Dependencies
+### Step 4: Navigate to Backend & Install Dependencies
 ```bash
 cd ../bcm-backend
 npm install
@@ -40,11 +41,12 @@ node server.js
 ```
 **Backend will run on:** `http://localhost:5000`
 
-### Step 6: Start Mobile App (New Terminal)
+### Step 6: Start Mobile App (Open New Terminal)
 ```bash
-cd bcm-mobile
+cd Best-Calorie-Measurement-BCM-/bcm-mobile
 npm start
 ```
+**Note:** Make sure you're in the `bcm-mobile` directory before running `npm start`
 
 ### Step 7: Install Expo Go on Your Phone
 - **iOS**: [Download from App Store](https://apps.apple.com/app/expo-go/id982107779)
